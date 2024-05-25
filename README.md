@@ -8,17 +8,11 @@ The API takes start time and end time in epoch format as input parameters. Below
 
 The file [asset_report_sample_output.xlsx](https://github.com/manoj24vvr/Numadic_Data_test/blob/main/asset_report_sample_output.xlsx) contains a sample output run on 15 Vehicle Trails data from the EOP-Dump.
 
-## Dataset :
+## Output :
 
-The data required for this project is taken from the below website.
-> http://snap.stanford.edu/data/web-Amazon-links.html
-
-It contains user reviews (numerical rating and textual comment) towards amazon products on 24 product categories(e.g., cell phones, clothing, beauty, etc.), and there is an independent dataset for each product category. We will select 5 product categories in this project i.e., Arts.txt.gz, Cell_Phones_&_Accessories.txt.gz, Jewelry.txt.gz, Musical_Instruments.txt.gz, Watches.txt.gz. On choosing the category of product, recommendations are displayed based on user based similarity .
-
-## Pipeline :
-After we select a dataset to work on, this project will mainly consist three steps:
-
-1) Data Processing
+Following is the list of fields/columns in the final output:
+### Required Columns:
+1) License plate number
 2) Perform EDA
 3) create the training and testing datasets
 4) Conduct rating prediction and make evaluation
