@@ -28,8 +28,8 @@ Following is the list of fields/columns in the final output:
 9) Number of Harsh Braking
 10) Percentage of Overspeeding
 
-##### If you want make the API call:
+##### If you want to make the API call:
 
-* clone this repo/download the [asset_report_app.py](https://github.com/manoj24vvr/Numadic_Data_test/blob/main/asset_report_app.py)
-* Change paths to Trip-Info.csv file and EOP-dump folder
+* clone this repo or download the [asset_report_app.py](https://github.com/manoj24vvr/Numadic_Data_test/blob/main/asset_report_app.py) file.
+* Change paths to Trip-Info.csv file and EOP-dump folder.
 * Run the script file.
